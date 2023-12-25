@@ -1,0 +1,6 @@
+* Create a e-commerce system using objects and classes concepts.
+* Create a model item with the following fields (id , name , price )
+* Create a model named order with the following fields ( id, items) items should be a list of type item.
+* Create constructor and getter setter for both
+* Create three orders containing three items in each ( objects)
+* Create a custom function in order class that displays the order total that gets calculated by adding price of each item.
