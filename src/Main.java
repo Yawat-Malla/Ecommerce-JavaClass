@@ -12,14 +12,15 @@ public class Main {
         Order order2 = new Order(2,item3.getPrice(),item3.getName());
         Order order3 = new Order(3,item1.getPrice(),item1.getName());
 
-        System.out.println("Yawat ko luga pasal");
-        System.out.println("Boudha,Kathmandu");
-        System.out.println("Contact: 9020302012\n");
-        System.out.println("SN\tOrder\tPrice");
-        System.out.println("1\t"+ order1.getItems() + "\t"+ order1.getPrice() );
-        System.out.println("2\t"+ order2.getItems() + "\t"+ order2.getPrice());
-        System.out.println("3\t"+ order3.getItems() + "\t"+ order3.getPrice());
-        System.out.println("Grand total: " + (order1.getPrice()+order2.getPrice()+order3.getPrice()));
+            System.out.println("Yawat ko luga pasal");
+            System.out.println("Boudha,Kathmandu");
+            System.out.println("Contact: 9020302012\n");
+            System.out.println("SN\tOrder\tPrice");
+            System.out.println("1\t"+ order1.getItems() + "\t"+ order1.getPrice() );
+            System.out.println("2\t"+ order2.getItems() + "\t"+ order2.getPrice());
+            System.out.println("3\t"+ order3.getItems() + "\t"+ order3.getPrice());
+            System.out.println("Grand total: " + (order1.getPrice()+order2.getPrice()+order3.getPrice()));
+
     }
 
 
